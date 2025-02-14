@@ -10,6 +10,7 @@
     <link rel="icon" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/Tally_Favicon/favicon-32x32.png" sizes="32x32">
     <link rel="icon" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/Tally_Favicon/favicon-96x96.png" sezes="96x96">
     <link rel="icon" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/Tally_Favicon/android-icon-192x192.png" sizes="192x192">
+    <link rel="manifest" href="/manifest.json">
 
     <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/bootstrap-4.5/css/bootstrap.min.css">
@@ -367,7 +368,7 @@ jQuery('.user_login_tallyinner').click(function(event){
                 if ( typeof(response.params) != "undefined" && response.params != undefined && response.params != null && response.params != "" )
                     url += "?"+response.params;
 
-                window.location.href = "https://customer.tallysolutions.com/customerapp/";
+                window.location.href = url;
                 //window.open(url,'_blank');
                 //frmReference.action = response.requrl+"?"+response.params;
                 //frmReference.submit();
