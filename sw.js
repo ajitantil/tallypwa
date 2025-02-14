@@ -1,6 +1,6 @@
-const CACHE_A1 = "PWA-cache-1";
+const CACHE_A1 = "PWA-cache-2";
 
-const filetocache = ["/server.js", "/tallyLogin.html", "/manifest.json"];
+const filetocache = ["/server.js", "/index.html", "/manifest.json", "/sw.js"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
