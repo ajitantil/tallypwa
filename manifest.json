@@ -1,0 +1,48 @@
+{
+	"name":"PWA Tutorial",
+	"short_name":"PWA",
+	"start_url":"/tallyLogin.html",
+	"display":"standalone",
+	"background_color":"#5900b3",
+	"theme_color":"#000000",
+	"scope": ".",
+	"description":"This is a PWA tutorial.",
+	"icons":[
+	{
+	"src":"images/Ampeross-Qetto-Icon-developer.256.png",					 
+	"sizes":"256x256",
+	"type":"image/png"
+	},
+	{
+	"src":"images/Oxygen-Icons.org-Oxygen-Apps-preferences-desktop-icons.256.png",
+	"sizes":"256x256",
+	"type":"image/png"
+	},
+	{
+	"src":"images/512x512.png",
+	"sizes":"512x512",
+	"type":"image/png"
+	},
+	{
+	"src":"images/web-app-manifest.256x256.png",
+	"sizes":"256x256",
+	"type":"image/png"
+	},
+	{
+	"src":"images/web-app-manifest.512x512.png",
+	"sizes":"512x512",
+	"type":"image/png"
+	},
+	{
+	"src":"images/web-app-manifest.1024x1024.png",
+	"sizes":"1024x1024",
+	"type":"image/png"
+	},
+	{
+	"src":"images/web-app-manifest.svg",
+	"sizes":"256x256",
+	"type":"image/png"
+	}
+
+]
+}

@@ -1,0 +1,443 @@
+<html lang="en"><head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon Icons -->
+    <link rel="icon" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/Tally_Favicon/favicon.ico">
+    <link rel="icon" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/Tally_Favicon/apple-icon.png">
+    <link rel="icon" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/Tally_Favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/Tally_Favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/Tally_Favicon/favicon-96x96.png" sezes="96x96">
+    <link rel="icon" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/images/Tally_Favicon/android-icon-192x192.png" sizes="192x192">
+
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://resources.tallysolutions.com/wp-content/themes/tally/assets/bootstrap-4.5/css/bootstrap.min.css">
+
+  <script src="https://resources.tallysolutions.com/wp-content/themes/tally/assets/bootstrap-4.5/js/jquery-3.5.1.min.js"></script>
+    <style type="text/css">
+		#header-top-pop-form .modal-dialog .modal-content .modal-body .right-bg {
+		    background-image: url("https://tallysolutions.com/wp-content/themes/tally/assets/images/login-popup-prime.jpg");
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		    background-position: 50%;
+		    width: 100%;
+		    height: 480px;
+		}
+
+		#header-top-pop-form .modal-dialog {
+		    max-width: 700px;
+		}
+		#header-top-pop-form .modal-dialog .modal-content {
+		    border: 0;
+		    border-radius: 0;
+		}
+		#header-top-pop-form .modal-dialog .modal-content .modal-body {
+		    padding: 0;
+		}
+		#header-top-pop-form .modal-dialog .modal-content .modal-body .header-form {
+		    /*margin-top: 30px;*/
+		    padding: 40px;
+		}
+		#header-top-pop-form .modal-dialog .modal-content .modal-body .header-form .form-row .form-control {
+		    border-radius: 0;
+		    border: 0;
+		    border-bottom: 1px solid;
+		    padding: 0;
+		}
+		#header-top-pop-form .modal-dialog .modal-content .modal-body .header-form .form-row .label-text {
+		    top: 15px;
+		    left: 5px;
+		    color: #777;
+		}
+		#header-top-pop-form .modal-dialog .modal-content .modal-body .header-form label {
+		    font-size: 14px;
+		    position: absolute;
+		    margin: 0;transition: all .3s ease-in;
+		}
+		#header-top-pop-form .modal-dialog .modal-content .modal-body .header-form .header-modal-heading {
+		    color: #3069b3;
+		    font-size: 20px;
+		    line-height: 1.5;
+		    font-weight: 500;
+		}
+		#header-top-pop-form .modal-dialog .modal-content .modal-body .header-form .btn-yellow {
+		    border-radius: 0;
+		    background-color: #3069b3;
+		    color: #fff;
+		    font-weight: 400;
+		    outline: none;
+		}
+		.btn-yellow{
+			font-size: 16px;
+			text-align: center;
+		    padding: 10px 25px;
+		    min-height: 45px;
+		    line-height: 1.5;
+		    border: none;
+		    white-space: unset;
+		    cursor: pointer;
+		    text-decoration: none!important;
+		}
+		.form-row h5.para-text {
+		    font-size: 0.9rem;
+		}
+
+		#header-top-pop-form .modal-dialog .modal-content .modal-body .header-form .para-text a {
+		    color: #777;
+		}
+		.form-control:focus{
+			outline: none!important;
+			box-shadow: none!important;
+		}
+		body{
+			background: #959595;
+		}
+
+
+    </style>
+
+  </head>
+  <body>
+<div class="modal fade show" id="header-top-pop-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" style="display: block; padding-left: 0px;">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-pos" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12">
+                  <div class="alert text-center alert-danger">
+                      This page requires login. Please login to access the page
+                  </div>
+                </div>
+              </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form class="header-form">
+                            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img
+                                    src="./images/close.svg" /></button> -->
+                            <h4 class="header-modal-heading mb-4">WELCOME!</h4>
+
+                            <div class="form-row">
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control form-custom" id="loginname" placeholder="Tally.NET ID" value="" required="">
+                                   <!--  <label for="validationName" class="label-text">Tally.NET ID</label> -->
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Please provide a Name.
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-4">
+                                    <input type="password" class="form-control form-custom" id="password" placeholder="Password" value="" required="">
+                                  <!--   <label for="validationPhone" class="label-text">Password</label> -->
+                                    <div class="valid-feedback">
+                                        Looks good!
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Please provide a Phone.
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="remember_me">
+                                        <label class="form-check-label" for="remember_me">
+                                            Remember me
+                                        </label><br>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-4">
+                                    <button type="button" id="login_btn" class="btn-yellow w-100 user_login_tallyinner">LOGIN</button>
+                                </div>
+
+                                <div class="col-md-12 mt-5">
+                                    <h5 class="para-text"><a href="https://tallysolutions.com/tallyweb/modules/admin/usm/CGetAccountAdminIDCtlr.php">Forgot ID/Password?</a></h5>
+                                    <h5 class="para-text"><a href="https://tallysolutions.com/tallyweb/modules/admin/usm/CResetPwdWithCnfCtlr.php">Reset Password</a></h5>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                      <!--   <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
+                            <img src="https://awsstgtpresources.tallysolutions.com/bd/en/wp-content/themes/tally/assets/images/close.svg" class="close-img" alt="Close">
+                        </button> -->
+                        <a target="_blank" href="https://tallysolutions.com/tally-prime-upgrade/"><div class="right-bg d-none d-md-block"></div></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="https://resources.tallysolutions.com/wp-content/themes/tally/assets/bootstrap-4.5/js/bootstrap.bundle.min.js"></script>
+
+<script type="text/javascript">
+var object_name ="";
+
+// Get the input field
+var input = document.getElementById("password");
+
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    OnValidateLoginClick(event);
+  }
+});
+
+jQuery('.user_login_tallyinner').click(function(event){
+   OnValidateLoginClick(event);
+   return false;
+});
+
+    /// to Validate user name and password
+    /**
+     * @startcomment
+     * Purpose: to Validate user name and password
+     *
+     * Input Params:  none
+     *
+     * Output Params: none
+     *
+     * Return Value:  none
+     *  1.  0/1 - int - error/success
+     *
+     * Notes:
+     * @endcomment
+     */
+    function OnValidateLoginClick(event)
+    {
+        var EventCode = 0;
+
+        //collecting user name and password
+        var Uname     = document.getElementById("loginname").value;
+        var UPass     = document.getElementById("password").value;
+
+              if (Uname == "" || Uname == "Tally.NET ID" )
+        {
+                                           EventCode = 1;
+            alert("Empty Tally.NET ID");
+            document.getElementById("loginname").focus();
+                                           if(window.event)
+                                           {
+                                                          window.event.returnValue = false;
+                                                          return false;
+                                           }
+                                           else
+                                           {
+                                                          event.preventDefault();
+                                                          return false;
+                                           }
+        }
+        if (UPass == "" || UPass == "Password")
+        {
+                                          EventCode = 1;
+            alert("Empty Password");
+            document.getElementById("password").focus();
+                                           if(window.event)
+                                           {
+                                                          window.event.returnValue = false;
+                                                          return false;
+                                           }
+                                           else
+                                           {
+                                                          event.preventDefault();
+                                                          return false;
+                                           }
+        }
+        else
+        {
+            // trimming the user name
+            Uname = Uname.replace(/^[\s]+/,'').replace(/[\s]+$/,'').replace(/[\s]{2,}/,' ');
+
+            // convert user name to lower case
+            Uname = Uname.toLowerCase();
+
+            //if( !ValidateLoginFormat(Uname) )
+            //{
+            //    alert("Invalid Tally.NET ID");
+            //    document.getElementById("strLoginName").focus();
+            //    return false;
+            //}
+
+            // assign trimmed and lower cased user name to text box value
+            document.getElementById("loginname").value = Uname;
+
+            var remember_me = 0;
+            var chkboxReference = document.getElementById('remember_me');
+            if( chkboxReference && chkboxReference.checked == true )
+                remember_me = 1;
+
+            //rmReference = document.getElementById("frmUserLogin");
+            //document.getElementById('strEventID').value  = 1;
+
+            // prepare variables for ajax validation
+            var reqURL = "https://tallysolutions.com/tallyweb/modules/interfaces/tallynet/CLoginCtlr.php";
+            var postVars = "strEventID=1"; //+document.getElementById('strEventID').value;
+            postVars += "&strLoginName="+Uname+"&strPassword="+encodeURIComponent(UPass)+"&chkbox_remember_me="+remember_me;
+            var destination_url = "";
+            var full_url = window.location.href;
+            var full_url_arr = full_url.split("?");
+            destination_url = full_url_arr[1];
+            /*if(full_url_arr.length > 1){
+              full_url = full_url_arr[1];
+              full_url_arr = full_url.split("=");
+            }*/
+
+            //postVars += "&strLoginURLAccIntID="+document.getElementById("strLoginURLAccIntID").value+"&prevent_sso=1";
+            postVars += "&"+destination_url;
+            postVars += "&prevent_sso=1&strRandomID="+Math.random();
+
+            //ShowtLoadingDiv();
+
+            jQuery.ajax({
+            type: "POST",
+            async: true,
+            contentType: "application/x-www-form-urlencoded",
+            url: reqURL,
+            data: postVars,
+            cache: false,
+            dataType: "jsonp",
+            timeout: 36000,
+            error: HandleRequestFailure,
+            success: HandleServerResponse
+            });
+                                           return false;
+        }
+    }
+
+    /* we can't rely on 'readyState' and 'status' properties of XMLHttpRequest object to check the error.
+    =>readyState=4 means something has been downloaded from the server whether success or failure response.
+    =>status=200 means server received the request, understood and accepted,it doesn't mean it has sent to the client.
+    For complete error handling use 'error' property of ajax API to specify the callback, which gets executed when
+    any of the following error occurs: timeout, parseerror, error, notmodified */
+
+    /* request failure due to syntax error in server files(parseerror, since expected response format is json in this
+    case), file not found(error), slow internet connection(timeout), response type is not as expected by the client
+    (json in this case) etc. */
+    function HandleRequestFailure( XMLHttpRequestObj, error_type, exception )
+    {
+        HideLoadingDiv();
+        owin = window.open('/website/html/TestMail.php?errortype='+error_type+'&errormsg='+exception+'&responsetext='+XMLHttpRequestObj.responseText+'&status='+XMLHttpRequestObj.status+'&statustext='+XMLHttpRequestObj.statusText+'&readystate='+XMLHttpRequestObj.readyState,'winmail');
+        setTimeout('owin.close();',5000);
+        if( error_type.match(/timeout/i) == null )
+            alert("Internal Error.Please Contact Tally Solutions !");
+    }
+
+    /* dataType in ajax request is given as 'json', so jQuery automatically converts the response text into an object.
+    jQuery doesn't require eval or any external json parser to parse the json string */
+    function HandleServerResponse( response )
+    {
+        //alert(response.requrl+"?"+response.params+"     "+response.login.status);
+        switch( parseInt(response.login.status, 10) )
+        {
+            // db query error
+            case -1:
+                HideLoadingDiv();
+                alert("Internal Error.Please Contact Tally Solutions !");
+                break;
+
+            case -2:
+                HideLoadingDiv();
+                alert(response.login.err_msg);
+                break;
+
+            case 0:
+                HideLoadingDiv();
+                alert(response.login.err_msg);
+                //alert("Invalid Tally.Net ID or Password !");
+                var UPass = document.getElementById("password");
+                UPass.value = "";   UPass.focus();
+                break;
+
+            case 1:
+                //frmReference = document.getElementById('frmUserLogin');
+                //document.getElementById('strEventID').value = 1;
+                //
+                //if( parseInt(response.menutype, 10) == 1 )
+                //    document.getElementById('strMenuType').value = 1;
+
+                var url = response.requrl;
+                if ( typeof(response.params) != "undefined" && response.params != undefined && response.params != null && response.params != "" )
+                    url += "?"+response.params;
+
+                window.location.href = url;
+                //window.open(url,'_blank');
+                //frmReference.action = response.requrl+"?"+response.params;
+                //frmReference.submit();
+                break;
+
+            default:
+                HideLoadingDiv();
+                alert("Invalid Tally.Net ID or Password !");
+                var UPass = document.getElementById("password");
+                UPass.value = "";   UPass.focus();
+        }
+    }
+
+    function ShowtLoadingDiv( )
+    {
+        return 1;
+        var objButton = document.getElementById('btnSubmit');
+        var top=0,left=0;
+
+        // get the top and left of button
+        var objParent = objButton;
+        while( objParent )
+        {
+            top += objParent.offsetTop;
+            left += objParent.offsetLeft;
+            objParent = objParent.offsetParent;
+        }
+
+        // hide the submit button
+        objButton.style.visibility = "hidden";
+
+        var loadDiv = document.getElementById('loadingDiv');
+        loadDiv.style.display = "";
+        //loadDiv.style.left = left+"px";
+        //loadDiv.style.top = top-7+"px";
+    }
+
+    function HideLoadingDiv()
+    {
+        return 1;
+
+        document.getElementById('loadingDiv').style.display = "none";
+        document.getElementById('btnSubmit').style.visibility = "visible";
+    }
+</script>
+
+<script>
+	// Script for Service Worker
+    function navigateTo(page) {
+      window.location.href = page;
+    }
+	window.addEventListener('load', () => {
+	registerSW();
+	});
+    
+	// Register the Service Worker
+async function registerSW() {
+    if ('serviceWorker' in navigator) {
+        try {
+            const registration = await navigator.serviceWorker.register('/sw.js');
+            console.log('Service Worker registered successfully:', registration);
+        }
+        catch (e) {
+            console.error('SW registration failed:', e);
+        }
+    }
+}
+</script>
+
+
+
+
+</body></html>
